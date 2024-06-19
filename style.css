@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header img{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+h2
+{
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+h1, h2, h3,h4{
+    font-family: 'EduTasBeginner';
+    line-height: 1.5em;
+    color: #028391;
+    padding: 1%;
+}
+
+main {
+    padding: 2em 1em;
+    margin: 0 auto;
+}
+
+nav
+{
+    background-color: green;
+    margin: 0;
+    padding: 0.7%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#img-principal{
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+A:hover
+{
+    opacity: 0.7;
+}
+
+footer
+{
+    margin-top: auto;
+    border: 1px solid #f00;
+    background-color: #151515;
+    color: #fff;
+    padding: 5px;
+    bottom: 0px;
+    width: 100%;
+}
+
+blockquote {
+    background-color: #ecf0f1;
+    border-left: 5px solid #34495e;
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: #333;
+}
+
+
+.Encabezado_container
+{
+    width: 100%;
+    display: grid;
+     grid-template-areas: "Logo Web_Encabezado";
+     grid-template-columns: 25% 50% 25%;
+     .Logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: Logo;
+     }
+     .Web_Encabezado{
+        display: flex;
+        grid-area: Web_Encabezado ;
+        justify-content: center;
+        align-items: center;
+        img{
+             max-width: 100%;
+             height: auto;
+        }
+
+     }
+}
+
+.Informacion
+{
+    margin-bottom: 2em;
+}
+
+.Informacion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Info_box{
+    flex: calc(100vw/6);
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+
+.Info_box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Info_box ul li 
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.Principios
+{
+    margin-bottom: 2em;
+    .Principios_Conteiner
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .principio
+    {
+        flex: calc(100vw/5);
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+        text-align: center;
+    }
+    .principio img
+    {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.Fuentes ul
+{
+  justify-content: center;
+    list-style: none;
+}
+
+.Fuentes ul li a {
+    color: #0009;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Fuentes ul li
+{
+    margin: 0 15px;
+}
